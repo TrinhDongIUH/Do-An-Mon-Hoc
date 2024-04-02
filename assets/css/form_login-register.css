@@ -1,0 +1,232 @@
+* {
+   box-sizing: inherit;
+   background-color: #B4D4FF;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.app {
+    overflow: hidden;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 38px;
+}
+
+.header-title_name {
+    margin-left: 16rem;
+    
+}
+
+.header-title_description {
+    margin-top: 36px;
+    margin-left: 2rem;
+}
+
+h1 {
+    font-size: 5.4rem;
+    font-weight: 600;
+    color: #279EFF;
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 18px;
+    font-weight: 1.4rem;
+    font-weight: 50;
+}
+
+.header-title-h2_first-language-VietNam {
+    font-size: 1.8rem;
+    color: #333;
+    margin-left: 86px;
+    margin-bottom: 10px;
+}
+
+
+.header-title-h2_second-language-VietNam {
+    font-size: 1.8rem;
+    margin-left: 52px;
+    color: #333;
+}
+
+.header-title-h2_first-language-English {
+    font-size: 1.8rem;
+    color: #333;
+    margin-left: 100px;  
+    margin-bottom: 10px;
+}
+
+
+.header-title-h2_second-language-English {
+    font-size: 1.8rem;
+    margin-left: 100px;
+    color: #333;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4px;
+}
+
+.content-border-box_login-form {
+    width: 400px;
+    height: 366px;
+    margin-top: 32px;
+}
+
+.content-border-box_login-form-input {
+    margin-left: 32px;
+}
+
+.content-border-box_form-name {
+    width: 360px;
+    height: 36px;
+    font-size: 2.2rem;
+    border-radius: 4px;
+    border-color:#279EFF;
+    background-color: #fff;
+    border-width: 2px;
+    border-style: solid;
+    color: #666;
+}
+
+.content-border-box_form-password {
+    width: 360px;
+    height: 36px;
+    font-size: 2.2rem;
+    border-radius: 4px;
+    border-color:#279EFF;
+    background-color: #fff;
+    border-width: 2px;
+    border-style: solid;
+    color: #666;
+    margin-top: 16px;
+}
+
+.content-border-box_login-form-checkbox {
+    margin-left: 36px;
+    margin-top: 16px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.content-border-box_login-from-input {
+    width: 18px;
+    height: 18px;
+}
+
+.content-border-box_login-from-label {
+    font-size: 1.6rem;
+    margin-top: 4px;
+    margin-left: 4px;
+    color: #333;
+}
+
+.content-border-box_login-form-button {
+    margin-left: 32px;
+}
+
+.content-border-box_login-form-button-submit {
+    width: 360px;
+    height: 36px;
+    font-size: 2.2rem;
+    border-radius: 4px;
+    border-color:#279EFF;
+    background-color: #279EFF;
+    border-width: 2px;
+    border-style: solid;
+    color: #fff;
+    margin-top: 16px;
+}
+
+.content-border-box_login-form-button-submit:hover {
+    background-color: #1E90FF;
+    cursor: pointer;
+}
+
+.content-border-box_login-form-forgot--register {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+    margin-left: 28px;
+}
+
+.content-border-box_login-form-forgot {
+    margin-right: 6px;
+}
+
+a {
+    color: #279EFF;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover {
+    color: #fff;
+}
+
+.content-border-box_login-form-forgot-a {
+    font-size: 1.6rem;
+    color: #333;
+}
+
+.content-border-box_login-form-register {
+    margin-left: 6px;
+}
+
+.content-border-box_login-form-register-a {
+    font-size: 1.6rem;
+    color: #333;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.language-vietnam-english_link {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+    height: 20px;
+}
+
+.language-vietnam_link {
+    font-size: 1.6rem;
+    color: #279EFF;
+    margin-right: 4px;
+}
+
+
+.language-english_link {
+    font-size: 1.6rem;
+    color: #279EFF;
+    margin-left: 8px;
+}
+
+.grid {
+    width: 100%;
+    display: block;
+    padding: 0;
+}
+
+.grid.wide {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
